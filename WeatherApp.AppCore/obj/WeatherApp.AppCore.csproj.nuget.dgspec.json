@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin Roa\\Desktop\\TareaClima\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj": {}
+    "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin Roa\\Desktop\\TareaClima\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj": {
+    "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Roa\\Desktop\\TareaClima\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
         "projectName": "WeatherApp.AppCore",
-        "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\TareaClima\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
-        "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Roa\\Desktop\\TareaClima\\WeatherApp\\WeatherApp.AppCore\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,16 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Autofac.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.2.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

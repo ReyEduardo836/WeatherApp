@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WeatherApp.Formularios.Formularios
 {
-    public partial class FormPrincipal : Form
+    public partial class Form1 : Form
     {
-        public FormPrincipal()
+        public Form1()
         {
             InitializeComponent();
         }
