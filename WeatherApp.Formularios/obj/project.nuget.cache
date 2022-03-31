@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Zh0LpGtK7lV7q6fUGfuv2Q2Z7MjGQj2PdOrBzI+Z6elyBXTXZSRbmLGmHNjUa3hrEr12FVj/kZjiexl0Mn+MaA==",
+  "dgSpecHash": "XKXHDVA4eJZt+Y4PYNxSaw9AIGW6sh/wIw0cFBLlDd7K/TON2gShB1RQKlAHuUQDAZcVTNwvLqnTL62QF3m7rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\restcountries.net\\2.1.0\\restcountries.net.2.1.0.nupkg.sha512",
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
   "logs": []
 }

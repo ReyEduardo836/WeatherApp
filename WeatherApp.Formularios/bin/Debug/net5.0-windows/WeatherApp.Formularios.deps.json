@@ -7,14 +7,79 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "WeatherApp.Formularios/1.0.0": {
+        "dependencies": {
+          "WeatherApp.Domain": "1.0.0"
+        },
         "runtime": {
           "WeatherApp.Formularios.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "RESTCountries.NET/2.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "RestSharp": "106.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/RESTCountries.NET.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "RestSharp/106.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.12.0.0",
+            "fileVersion": "106.12.0.0"
+          }
+        }
+      },
+      "WeatherApp.Domain/1.0.0": {
+        "dependencies": {
+          "RESTCountries.NET": "2.1.0"
+        },
+        "runtime": {
+          "WeatherApp.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WeatherApp.Formularios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "RESTCountries.NET/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Aeql+1XFJXJvmDVKkp/qYECFGD24clnA3HIdJTC54E4kDZ7Krd+Er+emqhDWJ761VB2uPOOexq7XBwlAWCdkA==",
+      "path": "restcountries.net/2.1.0",
+      "hashPath": "restcountries.net.2.1.0.nupkg.sha512"
+    },
+    "RestSharp/106.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "path": "restsharp/106.12.0",
+      "hashPath": "restsharp.106.12.0.nupkg.sha512"
+    },
+    "WeatherApp.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

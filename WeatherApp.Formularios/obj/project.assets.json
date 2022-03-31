@@ -1,26 +1,139 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RESTCountries.NET/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "RestSharp": "106.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/RESTCountries.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/RESTCountries.NET.dll": {}
+        }
+      },
+      "RestSharp/106.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "WeatherApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RESTCountries.NET": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/WeatherApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RESTCountries.NET/2.1.0": {
+      "sha512": "4Aeql+1XFJXJvmDVKkp/qYECFGD24clnA3HIdJTC54E4kDZ7Krd+Er+emqhDWJ761VB2uPOOexq7XBwlAWCdkA==",
+      "type": "package",
+      "path": "restcountries.net/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/RESTCountries.NET.dll",
+        "lib/netstandard2.1/RESTCountries.NET.xml",
+        "readme.txt",
+        "restcountries.net.2.1.0.nupkg.sha512",
+        "restcountries.net.nuspec"
+      ]
+    },
+    "RestSharp/106.12.0": {
+      "sha512": "irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "type": "package",
+      "path": "restsharp/106.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.12.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "WeatherApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WeatherApp.Domain/WeatherApp.Domain.csproj",
+      "msbuildProject": "../WeatherApp.Domain/WeatherApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "WeatherApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
       "projectName": "WeatherApp.Formularios",
-      "projectPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Formularios\\obj\\",
+      "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Formularios\\WeatherApp.Formularios.csproj",
+      "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Formularios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +146,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Domain\\WeatherApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Domain\\WeatherApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

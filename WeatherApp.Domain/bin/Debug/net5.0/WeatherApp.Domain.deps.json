@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
+      "WeatherApp.Domain/1.0.0": {
+        "dependencies": {
+          "RESTCountries.NET": "2.1.0"
+        },
+        "runtime": {
+          "WeatherApp.Domain.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -37,6 +45,11 @@
     }
   },
   "libraries": {
+    "WeatherApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Newtonsoft.Json/12.0.2": {
       "type": "package",
       "serviceable": true,

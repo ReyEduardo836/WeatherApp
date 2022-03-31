@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PK44TkvSpC+O8Gu8vDS9LW3/Rfjx90SrNXXU2qcfnbintBQWj8kiWaoH+vQspdZYn37k7VzJV+yEnJxwtih1aw==",
+  "dgSpecHash": "GPv/vohbRC+d0s9BCz7KCAOBO75X/b6WSkCjy+Tj1/ypPXQeqrBADzERSbS+tyCMvfYKNWRip36QoJY9mYDdtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Domain\\WeatherApp.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Domain\\WeatherApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\restcountries.net\\2.1.0\\restcountries.net.2.1.0.nupkg.sha512",
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
