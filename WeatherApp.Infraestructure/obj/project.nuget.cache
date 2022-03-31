@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGQLh2Q0ETvPs7uicyasnN45AUzswrVgPZyw4CdMY1i5ro7ovziTzZwWIVZZnuMZ0LdokmFU5cnB8Ud79ZARsQ==",
+  "dgSpecHash": "WJhG7RJxb8hKHxGNrxpcajeFF2Pnagi3Oh1nwKyBq90AXV4FGhO2qyq1SJeUqGdFXB6/JRKzjfK/rG9dGSPr3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.Infraestructure\\WeatherApp.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.Infraestructure\\WeatherApp.Infraestructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

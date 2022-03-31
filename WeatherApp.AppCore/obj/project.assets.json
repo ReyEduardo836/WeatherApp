@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kevin Roa\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
       "projectName": "WeatherApp.AppCore",
-      "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
-      "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin Roa\\Desktop\\Tarea2\\WeatherApp\\WeatherApp.AppCore\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\WeatherApp.AppCore.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\app\\WeatherApp\\WeatherApp.AppCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

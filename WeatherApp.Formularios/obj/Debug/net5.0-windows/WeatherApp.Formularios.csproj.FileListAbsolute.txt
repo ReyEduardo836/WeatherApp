@@ -1,5 +1,4 @@
 C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.Formularios.FormPrincipal.resources
 C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.csproj.GenerateResource.cache
 C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.AssemblyInfoInputs.cache
@@ -41,3 +40,9 @@ C:\Users\Kevin Roa\Desktop\Tarea2\WeatherApp\WeatherApp.Formularios\obj\Debug\ne
 C:\Users\Kevin Roa\Desktop\Tarea2\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\ref\WeatherApp.Formularios.dll
 C:\Users\Kevin Roa\Desktop\Tarea2\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.pdb
 C:\Users\Kevin Roa\Desktop\Tarea2\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.genruntimeconfig.cache
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\bin\Debug\net5.0-windows\RESTCountries.NET.dll
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\bin\Debug\net5.0-windows\RestSharp.dll
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\bin\Debug\net5.0-windows\WeatherApp.Domain.dll
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\bin\Debug\net5.0-windows\WeatherApp.Domain.pdb
+C:\Users\User\Desktop\app\WeatherApp\WeatherApp.Formularios\obj\Debug\net5.0-windows\WeatherApp.Formularios.csproj.CopyComplete
